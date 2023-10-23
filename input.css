@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.myclass:hover{
+    background-color: #999;
+    background-position: center;
+    box-shadow: 0 0 4px white;
+}
+.myclass{
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+}
+.text-wrapper h1 {
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    margin-left: 45px;
+    margin-top: -80px;
+}
+.text-wrapper p {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -598px;
+    margin-top: -35px;
+    opacity: 0.5;
+}
+p.More {
+    margin-left: 1090px;
+    opacity: 1;
+    font-size: large;
+    cursor: pointer;
+}
+.img-setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 22px;
+    padding: 21px;
+}
+.hero-setting{
+    margin-top: -45px;
+}
+.text-wrapper1 p {
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: -53px;
+}
+.cartBtn{
+    opacity: 0;
+    transition: 0.4s ease;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.warpper_ab:hover .cartBtn{
+    opacity: 1;
+}
+.warpper_ab{
+    position: relative;
+}
+.warpper_ab::before{
+    position: absolute;
+    top: 0;
+    bottom: 100%;
+    right: 0;
+    left: 0;
+    background-color: #b9a7a727;
+    transition: 0.4s ease;
+    background-blend-mode: hard-light;
+}
+.warpper_ab:hover::before{
+ bottom: 0;
+}
+/* Grid */
+/* .boxes{
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.boxes:hover{
+    background-color: #999;
+    background-position: center;
+    box-shadow: 0 0 4px white;
+}
+/* Grid Start */
+/* .gallery{
+    flex-basis: 50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 120px;
+
+}
+.row-2{
+    grid-row: span 2;
+}
+.col-2{
+    grid-column: span 2;
+}  */
+/* Grid End */
+.img1{
+    width: 50%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* gap: 8px; */
+    cursor: pointer;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 20px;
+
+}
+.cover p {
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 0 29px;
+    margin-top: -54px;
+    color: rgb(86, 85, 85);
+    /* text-grey-300 */
+    font-weight: bold;
+}
+.text-wrapper p {
+    margin-top: -35px;
+}
